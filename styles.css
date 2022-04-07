@@ -21,13 +21,11 @@ body {
   width: 700px;
 }
 
-.header h1 {
-  font-family: Tahoma;
-  font-weight: 800;
-  color: black;
-  margin: 50px 10px 50px 50px;
-  position: relative;
-  height: 1px;
+.title {
+  font-family: arial;
+  flex: content;
+  justify-content: center;
+  margin: 50px 10px 10px 50px;
 }
 
 .rows {
@@ -41,38 +39,21 @@ body {
   cursor: pointer;
 }
 
-h4 {
-  font-family: Arial;
-  font-weight: 550;
-  margin: 50px 10px 50px 50px;
-}
-
-h5 {
-  color: #9a9a9a;
-  margin: 50px 10px 50px 50px;
-}
-
 .middle {
   display: flex;
   flex-direction: column;
 }
 
 .subTitle {
+  display: flex;
+  flex-direction: column;
+  margin: 1px 10px 50px 50px;
 }
 
 .cards {
   display: flex;
-}
-
-.right {
-  display: flex;
-  flex-direction: column;
-  width: 25%;
-  background-color: #18a7e4;
-}
-
-.white-section {
-  background-color: #ffffff;
+  flex-direction: row;
+  margin: 1px 10px 50px 50px;
 }
 
 .option {
@@ -85,6 +66,18 @@ h5 {
   width: 50%;
 }
 
+.p-box {
+  width: 20px;
+  height: 20px;
+  border: 1px solid;
+  border-radius: 0.25rem;
+  color: #9a9a9a;
+}
+
+.support {
+  margin: 1px 10px 50px 50px;
+}
+
 .btn-white {
   color: #1894e4;
   background-color: #ffffff;
@@ -94,6 +87,10 @@ h5 {
   border: 1px solid;
   cursor: pointer;
   margin: 5px 10px 50px 50px;
+}
+
+.btn-logo {
+  margin: 1px 10px 50px 50px;
 }
 
 .btn-blue {
@@ -116,13 +113,20 @@ h5 {
   width: 28vh;
 }
 
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #18a7e4;
+}
+
 .blue-section {
   height: 100px;
   display: flex;
   justify-content: center;
 }
 
-.title {
+.title-two {
   color: white;
   font-family: arial;
   flex: content;
@@ -145,7 +149,35 @@ h5 {
   justify-content: center;
   color: #1894e4;
   background-color: #ffffff;
-  border-radius: 0.50rem;
+  border-radius: 0.5rem;
   width: 13.5vh;
   margin: 450px 10px 50px 20px;
 }
+
+.header h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  color: black;
+  margin: 50px 10px 50px 50px;
+  position: relative;
+  height: 1px;
+}
+
+h4 {
+  font-family: Arial;
+  font-weight: 550;
+  margin: 50px 10px 50px 50px;
+  position: relative;
+  height: 1px;
+}
+
+h5 {
+  color: #9a9a9a;
+  margin: 5px 10px 1px 50px;
+}
+
+p {
+  font-family: Arial;
+  color: black;
+}
+
