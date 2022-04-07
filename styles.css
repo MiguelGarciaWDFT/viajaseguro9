@@ -1,138 +1,151 @@
-            html,
-            body {
-                margin: 0px;
-                padding: 0px;
-            }
-            
-            .container {
-                display: flex;
-                
-            }
-            
-            .left {
-                display: flex;
-                flex-direction: column;
-                width: 75%;
-            }
-            
-            .header {
-                display: flex;
-            }
-            
-            .header h1 {
-                font-family: Tahoma;
-                font-weight: 800;
-                color: black;
-                margin: 50px 10px 50px 50px;
-                position: relative;
-            }
-            
-            .rows {
-                margin: 50px 10px 10px 450px;
-                position: absolute;
-            }
-            
-            .rowbtn {
-                height: 5vh;
-                margin: 10px 5px 5px 5px;
-            }
-            
-            h4 {
-                font-family: Arial;
-                font-weight: 550;
-                margin: 50px 10px 50px 50px;
-            }
-            
-            h5 {
-                color: #9a9a9a;
-                margin: 50px 10px 50px 50px;
-            }
-            
-            .middle {
-                display: flex;
-                flex-direction: column;
-            }
-            
-            .subTitle {}
-            
-            .cards {
-                display: flex;
-            }
-            
-            .right {
-                display: flex;
-                flex-direction: column;
-                width: 25%;
-                background-color: #18a7e4;
-            }
-            
-            .white-section {
-                background-color: #ffffff;
-            }
-            
-            .option {
-                margin: 50px 5% 0 5%;
-                padding: 20px;
-                width: 40%;
-            }
-            
-            .image {
-                width: 50%;
-            }
-            
-            .btn-white {
-                color: #1894e4;
-                background-color: #ffffff;
-                border-radius: .25rem;
-                width: 215px;
-                height: 50px;
-                border: 1px solid;
-                cursor: pointer;
-                margin: 5px 10px 50px 50px;
-            }
-            
-            .btn-blue {
-                color: #ffffff;
-                background-color: #18a7e4;
-                border: none;
-                border-radius: .25rem;
-                width: 100px;
-                height: 50px;
-                cursor: pointer;
-                margin: 5px 10px 50px 50px;
-            }
-            
-            .none {
-                color: #9a9a9a;
-            }
-            
-            .logo {
-                height: 10vh;
-                width: 28vh;
-            }
-            
-            .blue-section {
-                height: 400px;
-                display: flex;
-            }
-            
-            .title {
-                color: white;
-                font-family: arial;
-                flex: content;
-            }
-            
-            .sub-tittle {
-                color: #ffffff;
-                font-family: arial;
-                margin: 70px 10px 10px 10px;
-                line-height: 5vh;
-                width: 10vh;
-            }
-            
-            .page {
-                color: #1894e4;
-                background-color: #ffffff;
-                border-radius: .25rem;
-                margin: 450px 10px 50px 20px;
-            }
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+
+.header h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  color: black;
+  margin: 50px 10px 50px 50px;
+  position: relative;
+  height: 1px;
+}
+
+.rows {
+  margin: 85px 5px 10px 200px;
+  position: absolute;
+}
+
+.rowbtn {
+  height: 8vh;
+  margin: 10px 5px 5px 5px;
+  cursor: pointer;
+}
+
+h4 {
+  font-family: Arial;
+  font-weight: 550;
+  margin: 50px 10px 50px 50px;
+}
+
+h5 {
+  color: #9a9a9a;
+  margin: 50px 10px 50px 50px;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+}
+
+.subTitle {
+}
+
+.cards {
+  display: flex;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #18a7e4;
+}
+
+.white-section {
+  background-color: #ffffff;
+}
+
+.option {
+  margin: 50px 5% 0 5%;
+  padding: 20px;
+  width: 40%;
+}
+
+.image {
+  width: 50%;
+}
+
+.btn-white {
+  color: #1894e4;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  width: 215px;
+  height: 50px;
+  border: 1px solid;
+  cursor: pointer;
+  margin: 5px 10px 50px 50px;
+}
+
+.btn-blue {
+  color: #ffffff;
+  background-color: #18a7e4;
+  border: none;
+  border-radius: 0.25rem;
+  width: 100px;
+  height: 50px;
+  cursor: pointer;
+  margin: 5px 10px 50px 50px;
+}
+
+.none {
+  color: #9a9a9a;
+}
+
+.logo {
+  height: 10vh;
+  width: 28vh;
+}
+
+.blue-section {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: white;
+  font-family: arial;
+  flex: content;
+  justify-content: center;
+  margin: 50px 10px 10px 50px;
+}
+
+.sub-tittle {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  font-family: arial;
+  margin: 100px 10px 10px 10px;
+  line-height: 5vh;
+  width: 50vh;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  color: #1894e4;
+  background-color: #ffffff;
+  border-radius: 0.50rem;
+  width: 13.5vh;
+  margin: 450px 10px 50px 20px;
+}
