@@ -196,16 +196,6 @@ p {
   max-width: 120px;
 }
 
-/*.sub-tittle li {
-  display: flex;
-  flex-direction: column;
-  color: #ffffff;
-  font-family: arial;
-  margin: 1px 100px 20px 10px;
-  line-height: 6vh;
-  width: 10vh;
-}*/
-
 ul {
   max-width: 400px;
   margin: 0 auto;
@@ -268,14 +258,6 @@ ul li:last-of-type:before {
   color: black;
   margin: 50px 10px 10px 0px;
 }
-
-/*h4 {
-  font-family: Arial;
-  font-weight: 550;
-  margin: 50px 10px 50px 50px;
-  position: relative;
-  height: 1px;
-}*/
 
 h5 {
   color: #9a9a9a;
